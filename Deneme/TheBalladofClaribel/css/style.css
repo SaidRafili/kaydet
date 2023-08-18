@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+@font-face {
+	font-family: sen;
+	src: url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+	font-display: optional;
+}
+
+body::-webkit-scrollbar{
+	display: none;
+}
+
+body{
+	margin:0px;
+	background-color: #d4d4d4;
+	font-family:Sen;
+}
+
+b{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(117, 75, 91);
+}
+
+a:visited{
+	text-decoration: none;
+	color: rgb(117, 75, 91);
+}
+
+
+.screen{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 1200px;
+}
+
+header{
+	background-color: #b3b3b3;
+}
+
+header h1{
+	margin: 0px;
+	text-align: center;
+}
+
+header p{
+	margin: 0px;
+	color: rgb(0, 87, 99);
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+.categories{
+	position: sticky;
+	top: 0px;
+	background-color: #b3b3b3;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.categories .links{
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.links {
+	color: rgb(32,32,32);
+}
+
+.links:hover{
+	background-color: #d4d4d4;
+}
+
+.main{
+	background-color:#b3b3b3;
+	margin-top: 16px;
+}
+
+.main h1{
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0px;
+}
+
+.main div{
+	padding: 0px 30px 30px 30px;
+}
+
+.cards{
+	width: 1200px;
+	margin: 16px 0px 16px 0px;
+}
+
+.card{
+	background-color: #b3b3b3;
+	height: fit-content;
+}
+
+.imageholder{
+	padding: 15px 15px 5px 15px;
+	height: 346px;
+}
+
+.imageholder img{
+	width: 100%;
+    height: 100%;
+	object-fit: cover;
+}
+
+.textholder{
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+}
+
+.textholder h2{
+	margin-top: 0px;
+	text-align: center;
+}
+
+.textholder p{
+	margin-top: 10px;
+}
+
+.grid-1{
+	display: grid;
+	grid-template-columns: auto;
+	gap: 8px;
+}
+
+.grid-2{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 8px;
+}
+
+.grid-3{
+	display: grid;
+	grid-template-columns: 33% 33% auto;
+	gap: 16px;
+}
+
+.grid-4{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 8px;
+}
+
+.grid-5{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	gap: 8px;
+}
+
+.grid-6{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap: 8px;
+}
